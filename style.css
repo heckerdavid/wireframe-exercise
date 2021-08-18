@@ -1,0 +1,97 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  /* border: solid black; */
+  align-items: center;
+  color: lightgray;
+} 
+
+
+
+section:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+section:nth-child(1) img {
+  height: 450px;
+}
+
+section:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  width: inherit;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+section:nth-child(2) img {
+  height: 375px;
+}
+
+section:nth-child(3) {
+  display: flex;
+  width: inherit;
+  margin: 1em;
+  justify-content: center;
+  padding: 3em;
+}
+
+section:nth-child(3) img {
+  display: flex;
+  height: 400px;
+  /* justify-content: center; */
+}
+
+section:nth-child(3) article {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+h3 {
+  display: flex;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+p {
+  height: 250px;
+  overflow: scroll;
+  padding: 20px;
+}
+
+button {
+  display: flex;
+  padding: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
+  margin: 3em;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: grey;
+  color: #000;
+  
+}
+
+footer {
+  display: flex;
+  background-color: grey;
+  height: 8em;
+}
